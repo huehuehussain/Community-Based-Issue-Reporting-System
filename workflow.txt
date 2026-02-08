@@ -1,4 +1,23 @@
 Workflow 1: Citizen Issue Reporting & Community Validation
+Actor: Citizen (Registered User)
+
+Steps:
+1. User signs up/logs in using email or phone number.
+2. From the dashboard, user clicks *Report an Issue*.
+3. User selects issue category (e.g., Garbage, Water, Electricity, Road).
+4. User adds a short title and detailed description of the issue.
+5. User uploads an optional image of the issue.
+6. System captures geolocation automatically or allows manual pin placement on the map.
+7. User submits the report.
+8. System stores the issue with status *Pending* and displays it publicly.
+9. Other users can view nearby issues and *upvote* to confirm severity or recurrence.
+10. Issue priority increases based on upvotes and location density.
+
+Key Features:
+* Geolocation-based reporting
+* Image upload support
+* Community upvotes
+* Public visibility of issues
 
 Workflow 2: Authority/Admin Review & Status Management
 
