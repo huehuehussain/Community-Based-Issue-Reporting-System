@@ -18,7 +18,3 @@ Key Features:
 * Image upload support
 * Community upvotes
 * Public visibility of issues
-
-Workflow 2: Authority/Admin Review & Status Management
-
-Workflow 3: Analytics, Trends & Insights
