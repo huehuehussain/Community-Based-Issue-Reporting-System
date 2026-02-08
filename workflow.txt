@@ -1,5 +1,100 @@
 Workflow 1: Citizen Issue Reporting & Community Validation
+Actor: Citizen (Registered User)
+
+Steps:
+1. User signs up/logs in using email or phone number.
+2. From the dashboard, user clicks *Report an Issue*.
+3. User selects issue category (e.g., Garbage, Water, Electricity, Road).
+4. User adds a short title and detailed description of the issue.
+5. User uploads an optional image of the issue.
+6. System captures geolocation automatically or allows manual pin placement on the map.
+7. User submits the report.
+8. System stores the issue with status *Pending* and displays it publicly.
+9. Other users can view nearby issues and *upvote* to confirm severity or recurrence.
+10. Issue priority increases based on upvotes and location density.
+
+Key Features:
+* Geolocation-based reporting
+* Image upload support
+* Community upvotes
+* Public visibility of issues
 
 Workflow 2: Authority/Admin Review & Status Management
+Actor: Admin / Government Authority
+
+Step-by-Step Flow
+1. Admin logs in through a secure admin panel.
+2. System verifies admin credentials and role.
+3. Admin accesses the admin dashboard.
+4. Dashboard displays all reported issues with:
+    - Category
+    - Location
+    - Priority
+    - Current status
+5. Admin filters issues by:
+    - Area
+    - Category
+    - Priority
+    - Date
+7.Admin selects a specific issue.
+8.System displays:
+    - Issue description
+    - Uploaded images
+    - Upvote count
+    - Reporting timestamp
+9. Admin reviews the issue and takes action.
+10. Admin updates issue status:
+    - Pending → In Progress
+    - In Progress → Resolved / Rejected
+11. Admin adds remarks or resolution notes.
+12. System records:
+    - Status change timestamp
+    - Responsible authority
+13. System automatically notifies:
+    - Original reporter
+    - Users who upvoted the issue
+14. Resolved issues remain visible for transparency.
+
+System Outcomes
+- Clear accountability
+- Traceable response history
+- Citizen trust through updates
 
 Workflow 3: Analytics, Trends & Insights
+Actor: Admin or Public User (Read-Only for Public)
+
+Steps:
+1. User/Admin logs in and navigates to the Analytics Dashboard from the main menu.
+2. System displays overview statistics:
+   - Total issues reported
+   - Issues by status (Pending, In Progress, Resolved, Rejected)
+   - Total upvotes received
+3. User selects a date range filter (Last 7 days, Last 30 days, Last 3 months, Custom range).
+4. System displays a simple bar chart showing issues reported per category (Garbage, Water, Electricity, Road, etc.).
+5. User views a list of top 5 most reported issue categories.
+6. System shows a basic location-based view displaying issue count per area/neighborhood.
+7. User can filter statistics by:
+   - Issue category
+   - Location/Area
+   - Status
+   - Date range
+8. Admin views average resolution time for completed issues.
+9. System displays a simple trend line showing number of issues reported over the selected time period.
+10. Admin can download a basic summary report as CSV containing:
+    - Issue ID
+    - Category
+    - Location
+    - Status
+    - Report Date
+    - Resolution Date (if resolved)
+
+Key Features:
+- Overview dashboard with basic statistics
+- Category-wise issue breakdown (bar charts)
+- Date range filtering
+- Simple trend visualization (line chart)
+- CSV export for basic reports
+- Average resolution time calculation
+- Top categories identification
+- Area-wise issue count
+
