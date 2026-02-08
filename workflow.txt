@@ -1,7 +1,3 @@
-Workflow 1: Citizen Issue Reporting & Community Validation
-
-Workflow 2: Authority/Admin Review & Status Management
-
 Workflow 3: Analytics, Trends & Insights
 Actor: Admin or Public User (Read-Only for Public)
 
