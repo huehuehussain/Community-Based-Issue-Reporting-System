@@ -20,5 +20,44 @@ Key Features:
 * Public visibility of issues
 
 Workflow 2: Authority/Admin Review & Status Management
+Actor: Admin / Government Authority
+
+Step-by-Step Flow
+1. Admin logs in through a secure admin panel.
+2. System verifies admin credentials and role.
+3. Admin accesses the admin dashboard.
+4. Dashboard displays all reported issues with:
+    - Category
+    - Location
+    - Priority
+    - Current status
+5. Admin filters issues by:
+    - Area
+    - Category
+    - Priority
+    - Date
+7.Admin selects a specific issue.
+8.System displays:
+    - Issue description
+    - Uploaded images
+    - Upvote count
+    - Reporting timestamp
+9. Admin reviews the issue and takes action.
+10. Admin updates issue status:
+    - Pending → In Progress
+    - In Progress → Resolved / Rejected
+11. Admin adds remarks or resolution notes.
+12. System records:
+    - Status change timestamp
+    - Responsible authority
+13. System automatically notifies:
+    - Original reporter
+    - Users who upvoted the issue
+14. Resolved issues remain visible for transparency.
+
+System Outcomes
+- Clear accountability
+- Traceable response history
+- Citizen trust through updates
 
 Workflow 3: Analytics, Trends & Insights
