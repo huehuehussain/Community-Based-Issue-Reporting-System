@@ -61,3 +61,39 @@ System Outcomes
 - Citizen trust through updates
 
 Workflow 3: Analytics, Trends & Insights
+Actor: Admin or Public User (Read-Only for Public)
+
+Steps:
+1. User/Admin logs in and navigates to the Analytics Dashboard from the main menu.
+2. System displays overview statistics:
+   - Total issues reported
+   - Issues by status (Pending, In Progress, Resolved, Rejected)
+   - Total upvotes received
+3. User selects a date range filter (Last 7 days, Last 30 days, Last 3 months, Custom range).
+4. System displays a simple bar chart showing issues reported per category (Garbage, Water, Electricity, Road, etc.).
+5. User views a list of top 5 most reported issue categories.
+6. System shows a basic location-based view displaying issue count per area/neighborhood.
+7. User can filter statistics by:
+   - Issue category
+   - Location/Area
+   - Status
+   - Date range
+8. Admin views average resolution time for completed issues.
+9. System displays a simple trend line showing number of issues reported over the selected time period.
+10. Admin can download a basic summary report as CSV containing:
+    - Issue ID
+    - Category
+    - Location
+    - Status
+    - Report Date
+    - Resolution Date (if resolved)
+
+Key Features:
+- Overview dashboard with basic statistics
+- Category-wise issue breakdown (bar charts)
+- Date range filtering
+- Simple trend visualization (line chart)
+- CSV export for basic reports
+- Average resolution time calculation
+- Top categories identification
+- Area-wise issue count
